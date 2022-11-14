@@ -1,0 +1,8 @@
+version: '2'
+services:
+  mail:
+    container_name: mail
+    build: .
+    ports:
+      - 25:25
+      - 3000:3000
